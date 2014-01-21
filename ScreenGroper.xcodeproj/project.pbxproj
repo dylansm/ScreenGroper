@@ -18,6 +18,18 @@
 		FC07E3CE188EDA9000768F4F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC07E3AD188EDA9000768F4F /* Cocoa.framework */; };
 		FC07E3D6188EDA9000768F4F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC07E3D4188EDA9000768F4F /* InfoPlist.strings */; };
 		FC07E3D8188EDA9000768F4F /* ScreenGroperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC07E3D7188EDA9000768F4F /* ScreenGroperTests.m */; };
+		FC07E3E6188EE3CD00768F4F /* clario_statusmenu_icon-active.png in Resources */ = {isa = PBXBuildFile; fileRef = FC07E3E2188EE3CD00768F4F /* clario_statusmenu_icon-active.png */; };
+		FC07E3E7188EE3CD00768F4F /* clario_statusmenu_icon-active@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC07E3E3188EE3CD00768F4F /* clario_statusmenu_icon-active@2x.png */; };
+		FC07E3E8188EE3CD00768F4F /* clario_statusmenu_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FC07E3E4188EE3CD00768F4F /* clario_statusmenu_icon.png */; };
+		FC07E3E9188EE3CD00768F4F /* clario_statusmenu_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC07E3E5188EE3CD00768F4F /* clario_statusmenu_icon@2x.png */; };
+		FC07E3F6188EE44600768F4F /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = FC07E3EB188EE44600768F4F /* LICENSE */; };
+		FC07E3F7188EE44600768F4F /* MASShortcut+Monitoring.m in Sources */ = {isa = PBXBuildFile; fileRef = FC07E3ED188EE44600768F4F /* MASShortcut+Monitoring.m */; };
+		FC07E3F8188EE44600768F4F /* MASShortcut+UserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = FC07E3EF188EE44600768F4F /* MASShortcut+UserDefaults.m */; };
+		FC07E3F9188EE44600768F4F /* MASShortcut.m in Sources */ = {isa = PBXBuildFile; fileRef = FC07E3F1188EE44600768F4F /* MASShortcut.m */; };
+		FC07E3FA188EE44600768F4F /* MASShortcutView+UserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = FC07E3F3188EE44600768F4F /* MASShortcutView+UserDefaults.m */; };
+		FC07E3FB188EE44600768F4F /* MASShortcutView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC07E3F5188EE44600768F4F /* MASShortcutView.m */; };
+		FC07E3FD188F012100768F4F /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC07E3FC188F012100768F4F /* Carbon.framework */; };
+		FC07E400188F06EE00768F4F /* RZIAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC07E3FF188F06EE00768F4F /* RZIAppController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +62,24 @@
 		FC07E3D3188EDA9000768F4F /* ScreenGroperTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScreenGroperTests-Info.plist"; sourceTree = "<group>"; };
 		FC07E3D5188EDA9000768F4F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FC07E3D7188EDA9000768F4F /* ScreenGroperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScreenGroperTests.m; sourceTree = "<group>"; };
+		FC07E3E2188EE3CD00768F4F /* clario_statusmenu_icon-active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clario_statusmenu_icon-active.png"; sourceTree = "<group>"; };
+		FC07E3E3188EE3CD00768F4F /* clario_statusmenu_icon-active@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clario_statusmenu_icon-active@2x.png"; sourceTree = "<group>"; };
+		FC07E3E4188EE3CD00768F4F /* clario_statusmenu_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clario_statusmenu_icon.png; sourceTree = "<group>"; };
+		FC07E3E5188EE3CD00768F4F /* clario_statusmenu_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clario_statusmenu_icon@2x.png"; sourceTree = "<group>"; };
+		FC07E3EB188EE44600768F4F /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		FC07E3EC188EE44600768F4F /* MASShortcut+Monitoring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASShortcut+Monitoring.h"; sourceTree = "<group>"; };
+		FC07E3ED188EE44600768F4F /* MASShortcut+Monitoring.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MASShortcut+Monitoring.m"; sourceTree = "<group>"; };
+		FC07E3EE188EE44600768F4F /* MASShortcut+UserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASShortcut+UserDefaults.h"; sourceTree = "<group>"; };
+		FC07E3EF188EE44600768F4F /* MASShortcut+UserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MASShortcut+UserDefaults.m"; sourceTree = "<group>"; };
+		FC07E3F0188EE44600768F4F /* MASShortcut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASShortcut.h; sourceTree = "<group>"; };
+		FC07E3F1188EE44600768F4F /* MASShortcut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASShortcut.m; sourceTree = "<group>"; };
+		FC07E3F2188EE44600768F4F /* MASShortcutView+UserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASShortcutView+UserDefaults.h"; sourceTree = "<group>"; };
+		FC07E3F3188EE44600768F4F /* MASShortcutView+UserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MASShortcutView+UserDefaults.m"; sourceTree = "<group>"; };
+		FC07E3F4188EE44600768F4F /* MASShortcutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASShortcutView.h; sourceTree = "<group>"; };
+		FC07E3F5188EE44600768F4F /* MASShortcutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASShortcutView.m; sourceTree = "<group>"; };
+		FC07E3FC188F012100768F4F /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		FC07E3FE188F06EE00768F4F /* RZIAppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZIAppController.h; sourceTree = "<group>"; };
+		FC07E3FF188F06EE00768F4F /* RZIAppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZIAppController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC07E3FD188F012100768F4F /* Carbon.framework in Frameworks */,
 				FC07E3AE188EDA9000768F4F /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -76,6 +107,7 @@
 		FC07E3A1188EDA9000768F4F = {
 			isa = PBXGroup;
 			children = (
+				FC07E3EA188EE44600768F4F /* MASShortcut */,
 				FC07E3B3188EDA9000768F4F /* ScreenGroper */,
 				FC07E3D1188EDA9000768F4F /* ScreenGroperTests */,
 				FC07E3AC188EDA9000768F4F /* Frameworks */,
@@ -95,6 +127,7 @@
 		FC07E3AC188EDA9000768F4F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FC07E3FC188F012100768F4F /* Carbon.framework */,
 				FC07E3AD188EDA9000768F4F /* Cocoa.framework */,
 				FC07E3CC188EDA9000768F4F /* XCTest.framework */,
 				FC07E3AF188EDA9000768F4F /* Other Frameworks */,
@@ -115,11 +148,14 @@
 		FC07E3B3188EDA9000768F4F /* ScreenGroper */ = {
 			isa = PBXGroup;
 			children = (
+				FC07E3E1188EE3CD00768F4F /* images */,
 				FC07E3BF188EDA9000768F4F /* RZIAppDelegate.h */,
 				FC07E3C0188EDA9000768F4F /* RZIAppDelegate.m */,
 				FC07E3C2188EDA9000768F4F /* MainMenu.xib */,
 				FC07E3C5188EDA9000768F4F /* Images.xcassets */,
 				FC07E3B4188EDA9000768F4F /* Supporting Files */,
+				FC07E3FE188F06EE00768F4F /* RZIAppController.h */,
+				FC07E3FF188F06EE00768F4F /* RZIAppController.m */,
 			);
 			path = ScreenGroper;
 			sourceTree = "<group>";
@@ -152,6 +188,36 @@
 				FC07E3D4188EDA9000768F4F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC07E3E1188EE3CD00768F4F /* images */ = {
+			isa = PBXGroup;
+			children = (
+				FC07E3E2188EE3CD00768F4F /* clario_statusmenu_icon-active.png */,
+				FC07E3E3188EE3CD00768F4F /* clario_statusmenu_icon-active@2x.png */,
+				FC07E3E4188EE3CD00768F4F /* clario_statusmenu_icon.png */,
+				FC07E3E5188EE3CD00768F4F /* clario_statusmenu_icon@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		FC07E3EA188EE44600768F4F /* MASShortcut */ = {
+			isa = PBXGroup;
+			children = (
+				FC07E3EB188EE44600768F4F /* LICENSE */,
+				FC07E3EC188EE44600768F4F /* MASShortcut+Monitoring.h */,
+				FC07E3ED188EE44600768F4F /* MASShortcut+Monitoring.m */,
+				FC07E3EE188EE44600768F4F /* MASShortcut+UserDefaults.h */,
+				FC07E3EF188EE44600768F4F /* MASShortcut+UserDefaults.m */,
+				FC07E3F0188EE44600768F4F /* MASShortcut.h */,
+				FC07E3F1188EE44600768F4F /* MASShortcut.m */,
+				FC07E3F2188EE44600768F4F /* MASShortcutView+UserDefaults.h */,
+				FC07E3F3188EE44600768F4F /* MASShortcutView+UserDefaults.m */,
+				FC07E3F4188EE44600768F4F /* MASShortcutView.h */,
+				FC07E3F5188EE44600768F4F /* MASShortcutView.m */,
+			);
+			name = MASShortcut;
+			path = ScreenGroper/MASShortcut;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,10 +297,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC07E3E7188EE3CD00768F4F /* clario_statusmenu_icon-active@2x.png in Resources */,
 				FC07E3B8188EDA9000768F4F /* InfoPlist.strings in Resources */,
 				FC07E3C6188EDA9000768F4F /* Images.xcassets in Resources */,
 				FC07E3BE188EDA9000768F4F /* Credits.rtf in Resources */,
+				FC07E3E9188EE3CD00768F4F /* clario_statusmenu_icon@2x.png in Resources */,
+				FC07E3E8188EE3CD00768F4F /* clario_statusmenu_icon.png in Resources */,
+				FC07E3F6188EE44600768F4F /* LICENSE in Resources */,
 				FC07E3C4188EDA9000768F4F /* MainMenu.xib in Resources */,
+				FC07E3E6188EE3CD00768F4F /* clario_statusmenu_icon-active.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,8 +324,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC07E3F8188EE44600768F4F /* MASShortcut+UserDefaults.m in Sources */,
+				FC07E3F9188EE44600768F4F /* MASShortcut.m in Sources */,
 				FC07E3C1188EDA9000768F4F /* RZIAppDelegate.m in Sources */,
+				FC07E3FA188EE44600768F4F /* MASShortcutView+UserDefaults.m in Sources */,
+				FC07E3FB188EE44600768F4F /* MASShortcutView.m in Sources */,
 				FC07E3BA188EDA9000768F4F /* main.m in Sources */,
+				FC07E3F7188EE44600768F4F /* MASShortcut+Monitoring.m in Sources */,
+				FC07E400188F06EE00768F4F /* RZIAppController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
