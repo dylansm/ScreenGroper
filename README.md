@@ -1,7 +1,5 @@
 ## ScreenGroper
 
-===
-
 ### About
 
 Coming soon.
