@@ -13,11 +13,16 @@
         <customObject id="-3" userLabel="Application"/>
         <customObject id="Qss-jv-Xin" userLabel="App Controller" customClass="RZIAppController">
             <connections>
+                <outlet property="shortcutView" destination="e51-fQ-DaB" id="Gbf-Dp-hcx"/>
                 <outlet property="statusMenu" destination="uMF-Ao-BMg" id="f7O-S9-laS"/>
             </connections>
         </customObject>
         <customObject id="494" customClass="RZIAppDelegate"/>
         <customObject id="420" customClass="NSFontManager"/>
+        <customView id="e51-fQ-DaB" customClass="MASShortcutView">
+            <rect key="frame" x="0.0" y="0.0" width="163" height="19"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+        </customView>
         <menu title="Menu" id="uMF-Ao-BMg">
             <items>
                 <menuItem title="Mobile" keyEquivalent="1" id="SuU-fa-Cg3">
@@ -26,7 +31,7 @@
                         <action selector="captureSafariURL:" target="Qss-jv-Xin" id="9BZ-oX-p7O"/>
                     </connections>
                 </menuItem>
-                <menuItem title="Tablet (portrait)" keyEquivalent="2" id="DsB-uO-LoI">
+                <menuItem title="Tablet" keyEquivalent="2" id="DsB-uO-LoI">
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <connections>
                         <action selector="captureSafariURL:" target="Qss-jv-Xin" id="W3u-ZL-4VA"/>
