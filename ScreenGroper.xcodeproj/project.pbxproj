@@ -31,7 +31,6 @@
 		FC07E3FD188F012100768F4F /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC07E3FC188F012100768F4F /* Carbon.framework */; };
 		FC07E400188F06EE00768F4F /* RZIAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC07E3FF188F06EE00768F4F /* RZIAppController.m */; };
 		FCFB8920188F5E2C000A95D3 /* webkit2png in Resources */ = {isa = PBXBuildFile; fileRef = FCFB891E188F5E2C000A95D3 /* webkit2png */; };
-		FCFB8921188F5E2C000A95D3 /* Webkit2Png.applescript in Sources */ = {isa = PBXBuildFile; fileRef = FCFB891F188F5E2C000A95D3 /* Webkit2Png.applescript */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,7 +82,6 @@
 		FC07E3FE188F06EE00768F4F /* RZIAppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZIAppController.h; sourceTree = "<group>"; };
 		FC07E3FF188F06EE00768F4F /* RZIAppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZIAppController.m; sourceTree = "<group>"; };
 		FCFB891E188F5E2C000A95D3 /* webkit2png */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = webkit2png; sourceTree = "<group>"; };
-		FCFB891F188F5E2C000A95D3 /* Webkit2Png.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; path = Webkit2Png.applescript; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -229,7 +227,6 @@
 			isa = PBXGroup;
 			children = (
 				FCFB891E188F5E2C000A95D3 /* webkit2png */,
-				FCFB891F188F5E2C000A95D3 /* Webkit2Png.applescript */,
 			);
 			name = Frameworks;
 			path = ScreenGroper/Frameworks;
@@ -347,7 +344,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCFB8921188F5E2C000A95D3 /* Webkit2Png.applescript in Sources */,
 				FC07E3F8188EE44600768F4F /* MASShortcut+UserDefaults.m in Sources */,
 				FC07E3F9188EE44600768F4F /* MASShortcut.m in Sources */,
 				FC07E3C1188EDA9000768F4F /* RZIAppDelegate.m in Sources */,

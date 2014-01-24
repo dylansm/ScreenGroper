@@ -82,7 +82,8 @@ typedef enum {
 //    NSArray *arguments;
     NSString* newpath = [NSString stringWithFormat:@"%@/%@",[[NSBundle mainBundle] privateFrameworksPath], scriptName];
     
-    NSString *desktop = [NSSearchPathForDirectoriesInDomains(NSDesktopDirectory, NSUserDomainMask, YES) objectAtIndex:0];
+//    NSString *desktop = [NSSearchPathForDirectoriesInDomains(NSDesktopDirectory, NSUserDomainMask, YES) objectAtIndex:0];
+    NSString *desktop = [@"~/Desktop" stringByExpandingTildeInPath];
 //    task.arguments = @[newpath, [NSString stringWithFormat:@"-W %@ -z 2.0 --delay=1 -F -D %@ %@", _width, desktop, _url]];
 //    NSArray *arguments = @[newpath, [NSString stringWithFormat:@"-W %@ -z 2.0 --delay=1 -F -D %@ %@", _width, desktop, _url]];
     NSArray *arguments = @[newpath, [NSString stringWithFormat:@"-W %@", _width], @"-z 2.0", @"-F", [NSString stringWithFormat:@"-D %@", desktop], [NSString stringWithFormat:@"%@", _url]];
